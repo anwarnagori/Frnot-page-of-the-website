@@ -88,40 +88,40 @@ body {
   font-style: normal;
   font-weight: 700;
 }
-.youtube-video{
-    border-radius: 15px 15px 15px 15px;
-    overflow: hidden;
-    height: 400px;
+.youtube-video {
+  border-radius: 15px 15px 15px 15px;
+  overflow: hidden;
+  height: 400px;
 }
-.images{
+.images {
   margin: 0 auto;
   margin-top: 300px;
   width: 1100px;
   display: flex;
   justify-content: space-between;
 }
-.about-us{
+.about-us {
   margin-top: 80px;
   text-align: center;
   font-style: normal;
   font-weight: bold;
 }
-.img-para{
+.img-para {
   width: 1100px;
   margin: 0 auto;
   margin-top: 40px;
   display: flex;
   justify-content: space-around;
 }
-.image{
+.image {
   width: 500px;
   border-radius: 15px 15px 15px 15px;
   overflow: hidden;
 }
-h2{
+h2 {
   margin-left: 30px;
 }
-.para p{
+.para p {
   margin-left: 30px;
   margin-top: 40px;
   line-height: 1.5em;
@@ -130,7 +130,7 @@ h2{
   font-weight: 400;
   font-size: 1.2em;
 }
-.para button{
+.para button {
   margin-left: 30px;
   margin-top: 25px;
   border: none;
@@ -143,7 +143,7 @@ h2{
   width: 130px;
   height: 45px;
 }
-.heading h2{
+.heading h2 {
   text-align: center;
   margin-top: 125px;
   font-style: normal;
@@ -151,14 +151,14 @@ h2{
   font-size: 2.5em;
   line-height: 1.5em;
 }
-.p{
+.p {
   text-align: center;
   margin-top: 30px;
   color: #929ba7;
   font-style: normal;
   font-weight: 500;
 }
-.imgs{
+.imgs {
   width: 1300px;
   margin: 0 auto;
   margin-top: 50px;
@@ -166,41 +166,40 @@ h2{
   justify-content: space-evenly;
   gap: 20px;
 }
-.imgs img{
+.imgs img {
   border-radius: 20px;
   overflow: hidden;
   width: 350px;
   height: 250px;
 }
-.related{
+.related {
   display: flex;
-
 }
-.related .h2{
+.related .h2 {
   width: 350px;
   margin-left: 80px;
   margin-top: 20px;
   background-color: #25377d;
   color: #ffff;
 }
-.related .h3{
+.related .h3 {
   width: 350px;
   margin-left: 70px;
   margin-top: 20px;
   background-color: #25377d;
   color: #ffff;
 }
-.related .h4{
+.related .h4 {
   width: 350px;
   margin-left: 70px;
   margin-top: 20px;
   background-color: #25377d;
   color: #ffff;
 }
-.paras{
+.paras {
   display: flex;
 }
-.paras .p1{
+.paras .p1 {
   width: 350px;
   margin-left: 75px;
   margin-top: 25px;
@@ -211,7 +210,7 @@ h2{
   line-height: 1.5em;
   background-color: #25377d;
 }
-.paras .p2{
+.paras .p2 {
   width: 350px;
   margin-left: 75px;
   margin-top: 25px;
@@ -222,7 +221,7 @@ h2{
   line-height: 1.5em;
   background-color: #25377d;
 }
-.paras .p3{
+.paras .p3 {
   width: 350px;
   margin-left: 75px;
   margin-top: 25px;
@@ -233,11 +232,11 @@ h2{
   line-height: 1.5em;
   background-color: #25377d;
 }
-.btn{
+.btn {
   display: flex;
   gap: 235px;
 }
-.btn button{
+.btn button {
   border: none;
   width: 130px;
   height: 40px;
