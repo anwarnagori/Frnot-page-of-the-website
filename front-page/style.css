@@ -622,7 +622,79 @@ h2 {
     flex-wrap: wrap;
   }
   .about-us{
+    width:300px;
+    margin-left: 60px;
+  }
+  .img-para{
+    display: flex;
+    flex-direction: column;
+  }
+  .image{
+    width: 350px;
+    margin-left: 20px;
+  }
+  .para h2{
+    width: 350px;
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  .para p{
+    width: 350px;
+    margin-top: 15px;
+    font-size: 12px;
+  }
+  .para button{
+    width: 120px;
+    height: 40px;
+    font-size: 14px;
+  }
+  .heading h2{
+    width: 350px;
+    font-size: 18px;
+  }
+  .p p{
+    width: 350px;
+    margin-left: 30px;
+    font-size: 10px;
+  }
+  .imgs{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+  }
+  .imgs img{
+    width: 350px;
+    margin-left: 20px;
+  }
+  /* .related{
     border: 2px solid red;
-    width: 600px;
+
+  } */
+  .related{
+   display: flex;
+   flex-direction: column;
+  }
+  .related .h2{
+    position: relative;
+    bottom: 700px;
+    right: 60px;
+    height: 20px;
+  }
+  .related .h2 h2{
+  font-size: 15px;
+  }
+  .related .h3{
+    position: relative;
+    bottom: 410px;
+    right: 50px;
+
+  }
+  .related .h3 h2{
+    font-size: 15px;
+    }
+.related .h4{
+  position: relative;
+  bottom: 130px;
+  right: 50px;
   }
 }
