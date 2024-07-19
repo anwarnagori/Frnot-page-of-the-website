@@ -731,12 +731,156 @@ h2 {
     position: relative;
     bottom: 1730px;
   }
-  .btn button{
+  .btn button {
     position: relative;
     right: 50px;
   }
-  .btn .b-2{
+  .btn .b-2 {
     position: relative;
     bottom: 10px;
+  }
+  .free {
+    width: 380px;
+    position: relative;
+    bottom: 1750px;
+  }
+  .free h2 {
+    font-size: 20px;
+  }
+  .logo {
+    width: 350px;
+    position: relative;
+    bottom: 1750px;
+  }
+  .main-logo {
+    position: relative;
+    right: 50px;
+  }
+  .main-logo img {
+    width: 40px;
+    height: 40px;
+  }
+  .logo-heading h4 {
+    position: relative;
+    right: 50px;
+    font-size: 14px;
+  }
+  .logo-heading p {
+    position: relative;
+    right: 50px;
+    margin-bottom: 5px;
+    font-size: 10px;
+  }
+  .middle-para p {
+    width: 300px;
+    position: relative;
+    bottom: 1760px;
+    right: 80px;
+    font-size: 10px;
+  }
+  .short-para p {
+    position: relative;
+    bottom: 1750px;
+    right: 80px;
+    font-size: 10px;
+  }
+  .big-para p {
+    width: 300px;
+    position: relative;
+    bottom: 1750px;
+    right: 80px;
+    font-size: 10px;
+  }
+  .videos {
+    width: 350px;
+    height: 250px;
+    position: relative;
+    bottom: 1750px;
+    right: 70px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  .videos iframe {
+    width: 100px;
+    height: 100px;
+  }
+  .btns {
+    width: 390px;
+    position: relative;
+    bottom: 1790px;
+  }
+  .btns .b1 {
+    width: 80px;
+    height: 20px;
+    font-size: 10px;
+  }
+  .btns .b2 img {
+    height: 20px;
+  }
+  .btns .b2 {
+    width: 80px;
+    height: 20px;
+    font-size: 10px;
+  }
+  .blogs h2 {
+    width: 390px;
+    position: relative;
+    bottom: 1950px;
+    right: 30px;
+    font-size: 25px;
+  }
+  .html {
+    position: relative;
+    bottom: 1950px;
+    right: 305px;
+  }
+  .remote {
+    display: none;
+  }
+  .success h2 {
+    position: relative;
+    bottom: 2020px;
+    right: 75px;
+    font-size: 25px;
+  }
+  .parent p {
+    width: 350px;
+    position: relative;
+    bottom: 2050px;
+    right: 330px;
+    font-size: 10px;
+  }
+  .main-img .img1 {
+    position: relative;
+    bottom: 2050px;
+    right: 390px;
+  }
+  .main-img .a1 {
+    width: 350px;
+    position: relative;
+    bottom: 2050px;
+    left: 25px;
+    font-size: 15px;
+  }
+  .main-img .h5 {
+    width: 300px;
+    position: relative;
+    bottom: 2050px;
+    left: 50px;
+    font-size: 15px;
+  }
+  .main-img .stdn {
+    width: 300px;
+    position: relative;
+    bottom: 2050px;
+    left: 50px;
+  }
+  .footer {
+    border: 2px solid red;
+    width: 400px;
+    position: relative;
+    bottom: 2050px;
   }
 }
