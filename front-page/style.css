@@ -44,8 +44,8 @@ body {
   font-size: 20px;
   text-decoration: none;
 }
-.navbar li{
-list-style: none;
+.navbar li {
+  list-style: none;
 }
 .navbar a {
   text-decoration: none;
@@ -62,7 +62,7 @@ list-style: none;
   font-weight: 500;
   background-color: #ef6323;
 }
-.navbar button:hover{
+.navbar button:hover {
   background-color: #ffff;
   color: #070505;
 }
@@ -96,7 +96,7 @@ list-style: none;
   font-style: normal;
   font-weight: 700;
 }
-.container button:hover{
+.container button:hover {
   background-color: #ef6323;
   color: #ffff;
 }
@@ -153,7 +153,7 @@ h2 {
   width: 130px;
   height: 45px;
 }
-.para button:hover{
+.para button:hover {
   background-color: #ef6323;
 }
 .heading h2 {
@@ -262,7 +262,7 @@ h2 {
   font-weight: 500;
   background-color: #25377d;
 }
-.btn button:hover{
+.btn button:hover {
   background-color: #ef6323;
 }
 .free {
@@ -299,7 +299,7 @@ h2 {
   font-weight: 600;
   font-size: 14px;
 }
-.logo-heading p:hover{
+.logo-heading p:hover {
   color: #ffeb3b;
 }
 .middle-para {
@@ -321,7 +321,9 @@ h2 {
   color: #929ba7;
   font-size: 14px;
 }
-.middle-para p:hover, .short-para p:hover, .big-para p:hover{
+.middle-para p:hover,
+.short-para p:hover,
+.big-para p:hover {
   color: #ffeb3b;
 }
 .videos {
@@ -356,7 +358,8 @@ h2 {
   background-color: #25377d;
   color: #ffff;
 }
-.btns .b1:hover, .b2:hover{
+.btns .b1:hover,
+.b2:hover {
   background-color: #352323;
 }
 .blogs h2 {
@@ -523,7 +526,7 @@ h2 {
   align-items: center;
   justify-content: center;
 }
-.fixed{
+.fixed {
   width: 220px;
   display: flex;
   justify-content: center;
@@ -533,7 +536,7 @@ h2 {
   top: 570px;
   left: 1125px;
 }
-.fixed p{
+.fixed p {
   width: 100px;
   padding: 10px;
   text-align: center;
@@ -541,17 +544,17 @@ h2 {
   border: 1px solid #0000;
   border-radius: 20px;
 }
-.fixed img{
+.fixed img {
   margin-bottom: 10px;
   border-radius: 30px;
   overflow: hidden;
 }
-@media only screen and (max-width: 520px){
-  .main-heading{
+@media only screen and (max-width: 520px) {
+  .main-heading {
     margin-left: 20px;
     margin-top: 40px;
   }
-  .main-heading h1{
+  .main-heading h1 {
     width: 220px;
     color: #ef6323;
     font-style: normal;
@@ -559,55 +562,55 @@ h2 {
     font-size: 20px;
     line-height: 0.5em;
   }
-  .main-heading p{
+  .main-heading p {
     font-style: normal;
     font-weight: 200;
     font-size: 8px;
   }
-  .navbar{
+  .navbar {
     display: flex;
     flex-direction: row;
     margin-left: -420px;
-  margin-top: 80px;
-  height: 50px;
-  width: 200px;
+    margin-top: 80px;
+    height: 50px;
+    width: 200px;
   }
-  .navbar ul{
+  .navbar ul {
     display: flex;
     flex-direction: column;
   }
-  .navbar button{
+  .navbar button {
     position: relative;
     top: 200px;
     right: 80px;
     width: 350px;
   }
-  .middle{
+  .middle {
     position: relative;
     top: 135px;
     display: flex;
     flex-direction: column;
   }
-  .middle h1{
+  .middle h1 {
     width: 350px;
     margin-left: 10px;
     font-style: normal;
     font-weight: 500;
     font-size: 25px;
   }
-  .middle p{
+  .middle p {
     width: 350px;
     margin-left: 10px;
     font-style: normal;
     font-weight: 100;
     font-size: 12px;
   }
-  .middle button{
+  .middle button {
     margin: 0 auto;
     margin-top: 25px;
     width: 350px;
   }
-  .middle .youtube-video{
+  .middle .youtube-video {
     margin-left: 15px;
     margin-top: 60px;
     width: 350px;
@@ -621,80 +624,119 @@ h2 {
     gap: 30px;
     flex-wrap: wrap;
   }
-  .about-us{
-    width:300px;
+  .about-us {
+    width: 300px;
     margin-left: 60px;
   }
-  .img-para{
+  .img-para {
     display: flex;
     flex-direction: column;
   }
-  .image{
+  .image {
     width: 350px;
     margin-left: 20px;
   }
-  .para h2{
+  .para h2 {
     width: 350px;
     margin-top: 20px;
     font-size: 18px;
   }
-  .para p{
+  .para p {
     width: 350px;
     margin-top: 15px;
     font-size: 12px;
   }
-  .para button{
+  .para button {
     width: 120px;
     height: 40px;
     font-size: 14px;
   }
-  .heading h2{
+  .heading h2 {
     width: 350px;
     font-size: 18px;
   }
-  .p p{
+  .p p {
     width: 350px;
     margin-left: 30px;
     font-size: 10px;
   }
-  .imgs{
+  .imgs {
     display: flex;
     flex-direction: column;
-    gap: 100px;
+    gap: 300px;
   }
-  .imgs img{
+  .imgs img {
     width: 350px;
     margin-left: 20px;
   }
-  /* .related{
-    border: 2px solid red;
-
-  } */
-  .related{
-   display: flex;
-   flex-direction: column;
+  .related {
+    display: flex;
+    flex-direction: column;
   }
-  .related .h2{
+  .related .h2 {
     position: relative;
-    bottom: 700px;
+    bottom: 1100px;
     right: 60px;
     height: 20px;
   }
-  .related .h2 h2{
-  font-size: 15px;
+  .related .h2 h2 {
+    font-size: 12px;
+    margin: 5px;
   }
-  .related .h3{
+  .related .h3 {
     position: relative;
-    bottom: 410px;
+    bottom: 605px;
     right: 50px;
-
   }
-  .related .h3 h2{
-    font-size: 15px;
-    }
-.related .h4{
-  position: relative;
-  bottom: 130px;
-  right: 50px;
+  .related .h3 h2 {
+    font-size: 12px;
+    margin: 5px;
+  }
+  .related .h4 {
+    position: relative;
+    bottom: 110px;
+    right: 50px;
+  }
+  .related .h4 h2 {
+    font-size: 12px;
+    margin: 5px;
+  }
+  .paras {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+  .paras .p1 {
+    position: relative;
+    bottom: 1230px;
+    right: 55px;
+  }
+  .paras .p2 {
+    position: relative;
+    bottom: 910px;
+    right: 55px;
+  }
+  .paras .p3 {
+    position: relative;
+    bottom: 590px;
+    right: 55px;
+  }
+  .btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 50px;
+    width: 350px;
+    height: 1190px;
+    position: relative;
+    bottom: 1730px;
+  }
+  .btn button{
+    position: relative;
+    right: 50px;
+  }
+  .btn .b-2{
+    position: relative;
+    bottom: 10px;
   }
 }
