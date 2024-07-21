@@ -2,19 +2,23 @@
   margin: 0;
   padding: 0;
 }
+
 body {
   background-image: url("images/background-image.svg");
   background-repeat: no-repeat;
 }
+
 #main-content {
   display: flex;
 }
+
 .main-heading {
   height: auto;
   width: 450px;
   margin-top: 20px;
   margin-left: 75px;
 }
+
 .main-heading h1 {
   color: #ef6323;
   font-style: normal;
@@ -22,6 +26,7 @@ body {
   font-size: 43px;
   line-height: 0.8em;
 }
+
 .main-heading p {
   color: #ffff;
   font-style: normal;
@@ -29,12 +34,14 @@ body {
   font-size: 16px;
   line-height: 1.3em;
 }
+
 .navbar {
   margin-left: 220px;
   margin-top: 20px;
   height: 50px;
   width: 600px;
 }
+
 .navbar ul {
   margin: 0;
   display: flex;
@@ -44,13 +51,16 @@ body {
   font-size: 20px;
   text-decoration: none;
 }
+
 .navbar li {
   list-style: none;
 }
+
 .navbar a {
   text-decoration: none;
   color: #ffff;
 }
+
 .navbar button {
   margin-right: 70px;
   border: none;
@@ -62,16 +72,19 @@ body {
   font-weight: 500;
   background-color: #ef6323;
 }
+
 .navbar button:hover {
   background-color: #ffff;
   color: #070505;
 }
+
 .middle {
   width: 1200px;
   margin: 0 auto;
   margin-top: 200px;
   display: flex;
 }
+
 .container h1 {
   width: 400px;
   color: #ffff;
@@ -79,6 +92,7 @@ body {
   font-weight: bolder;
   font-size: 70px;
 }
+
 .container p {
   margin-top: 20px;
   width: 470px;
@@ -87,6 +101,7 @@ body {
   font-weight: 500;
   line-height: 1.5em;
 }
+
 .container button {
   margin-top: 20px;
   border: none;
@@ -96,15 +111,18 @@ body {
   font-style: normal;
   font-weight: 700;
 }
+
 .container button:hover {
   background-color: #ef6323;
   color: #ffff;
 }
+
 .youtube-video {
   border-radius: 15px 15px 15px 15px;
   overflow: hidden;
   height: 400px;
 }
+
 .images {
   margin: 0 auto;
   margin-top: 300px;
@@ -112,10 +130,12 @@ body {
   display: flex;
   justify-content: space-between;
 }
+
 .about-us {
   margin-top: 80px;
   text-align: center;
 }
+
 .img-para {
   width: 1100px;
   margin: 0 auto;
@@ -123,14 +143,17 @@ body {
   display: flex;
   justify-content: space-around;
 }
+
 .image {
   width: 500px;
   border-radius: 15px 15px 15px 15px;
   overflow: hidden;
 }
+
 h2 {
   margin-left: 30px;
 }
+
 .para p {
   margin-left: 30px;
   margin-top: 40px;
@@ -140,6 +163,7 @@ h2 {
   font-weight: 400;
   font-size: 16px;
 }
+
 .para button {
   margin-left: 30px;
   margin-top: 25px;
@@ -153,9 +177,11 @@ h2 {
   width: 130px;
   height: 45px;
 }
+
 .para button:hover {
   background-color: #ef6323;
 }
+
 .heading h2 {
   text-align: center;
   margin-top: 125px;
@@ -164,6 +190,7 @@ h2 {
   font-size: 50px;
   line-height: 1.5em;
 }
+
 .p {
   text-align: center;
   margin-top: 30px;
@@ -171,6 +198,7 @@ h2 {
   font-style: normal;
   font-weight: 500;
 }
+
 .imgs {
   width: 1300px;
   margin: 0 auto;
@@ -179,15 +207,18 @@ h2 {
   justify-content: space-evenly;
   gap: 20px;
 }
+
 .imgs img {
   border-radius: 20px;
   overflow: hidden;
   width: 350px;
   height: 250px;
 }
+
 .related {
   display: flex;
 }
+
 .related .h2 {
   width: 350px;
   margin-left: 80px;
@@ -195,6 +226,7 @@ h2 {
   background-color: #25377d;
   color: #ffff;
 }
+
 .related .h3 {
   width: 350px;
   margin-left: 70px;
@@ -202,6 +234,7 @@ h2 {
   background-color: #25377d;
   color: #ffff;
 }
+
 .related .h4 {
   width: 350px;
   margin-left: 70px;
@@ -209,12 +242,15 @@ h2 {
   background-color: #25377d;
   color: #ffff;
 }
+
 .paras {
   display: flex;
 }
+
 .paras p {
   padding: 10px;
 }
+
 .paras .p1 {
   width: 350px;
   margin-left: 75px;
@@ -225,6 +261,7 @@ h2 {
   line-height: 1.5em;
   background-color: #25377d;
 }
+
 .paras .p2 {
   width: 350px;
   margin-left: 75px;
@@ -235,6 +272,7 @@ h2 {
   line-height: 1.5em;
   background-color: #25377d;
 }
+
 .paras .p3 {
   padding: 10px;
   width: 350px;
@@ -246,10 +284,12 @@ h2 {
   line-height: 1.5em;
   background-color: #25377d;
 }
+
 .btn {
   display: flex;
   gap: 235px;
 }
+
 .btn button {
   border: none;
   width: 130px;
@@ -262,46 +302,56 @@ h2 {
   font-weight: 500;
   background-color: #25377d;
 }
+
 .btn button:hover {
   background-color: #ef6323;
 }
+
 .free {
   text-align: center;
   margin-top: 100px;
 }
+
 .free h2 {
   font-style: normal;
   font-weight: bold;
   font-size: 40px;
 }
+
 .logo {
   margin-top: 50px;
   display: flex;
   align-items: center;
 }
+
 .logo .main-logo {
   border-radius: 50px;
   overflow: hidden;
   margin-left: 60px;
 }
+
 .logo .logo-heading {
   margin-left: 30px;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
+
 .logo-heading h4 {
   font-weight: bold;
   font-size: 15px;
 }
+
 .logo-heading p {
   color: #929ba7;
   font-weight: 600;
   font-size: 14px;
 }
+
 .logo-heading p:hover {
   color: #ffeb3b;
 }
+
 .middle-para {
   width: 1150px;
   margin-left: 160px;
@@ -309,23 +359,27 @@ h2 {
   color: #929ba7;
   font-size: 14px;
 }
+
 .short-para {
   margin-left: 160px;
   margin-top: 30px;
   color: #929ba7;
   font-size: 14px;
 }
+
 .big-para {
   margin-left: 160px;
   margin-top: 30px;
   color: #929ba7;
   font-size: 14px;
 }
+
 .middle-para p:hover,
 .short-para p:hover,
 .big-para p:hover {
   color: #ffeb3b;
 }
+
 .videos {
   width: 1150px;
   margin: 0 auto;
@@ -334,16 +388,19 @@ h2 {
   flex-wrap: wrap;
   gap: 30px;
 }
+
 .videos iframe {
   width: 350px;
   height: 200px;
 }
+
 .btns {
   margin-top: 30px;
   display: flex;
   justify-content: center;
   gap: 15px;
 }
+
 .btns .b1 {
   border: none;
   width: 100px;
@@ -351,6 +408,7 @@ h2 {
   background-color: #25377d;
   color: #ffff;
 }
+
 .btns .b2 {
   border: none;
   width: 100px;
@@ -358,10 +416,12 @@ h2 {
   background-color: #25377d;
   color: #ffff;
 }
+
 .btns .b1:hover,
 .b2:hover {
   background-color: #352323;
 }
+
 .blogs h2 {
   margin-top: 250px;
   text-align: center;
@@ -369,6 +429,7 @@ h2 {
   font-weight: bold;
   font-size: 40px;
 }
+
 .opportunity {
   width: 1000px;
   margin: 0 auto;
@@ -376,12 +437,14 @@ h2 {
   justify-content: center;
   gap: 30px;
 }
+
 .opportunity .html {
   margin-top: 20px;
   width: 350px;
   height: 300px;
   background-color: #25377d;
 }
+
 .un-paid {
   width: 200px;
   margin: 0 auto;
@@ -390,11 +453,13 @@ h2 {
   color: #ffff;
   text-align: center;
 }
+
 .un-paid p {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
 }
+
 .p-html {
   margin-top: 30px;
   color: #ffff;
@@ -403,6 +468,7 @@ h2 {
   font-size: 25px;
   text-align: center;
 }
+
 .html button {
   border: none;
   border-bottom: 2px solid #ffff;
@@ -412,12 +478,14 @@ h2 {
   display: flex;
   margin: 0 auto;
 }
+
 .opportunity .remote {
   margin-top: 20px;
   width: 350px;
   height: 300px;
   background-color: #25377d;
 }
+
 .opportunities {
   width: 200px;
   margin: 0 auto;
@@ -426,6 +494,7 @@ h2 {
   background-color: #ef6323;
   color: #ffff;
 }
+
 .p-remote {
   margin-top: 30px;
   color: #ffff;
@@ -434,6 +503,7 @@ h2 {
   font-size: 25px;
   text-align: center;
 }
+
 .remote button {
   border: none;
   border-bottom: 2px solid #ffff;
@@ -443,15 +513,18 @@ h2 {
   margin: 0 auto;
   margin-top: 30px;
 }
+
 .success {
   text-align: center;
   margin-top: 120px;
 }
+
 .success h2 {
   font-style: normal;
   font-weight: bold;
   font-size: 35px;
 }
+
 .parent {
   width: 1050px;
   margin: 0 auto;
@@ -464,45 +537,54 @@ h2 {
   font-weight: 500;
   font-size: 18px;
 }
+
 .main-img {
   width: 1200px;
   height: 250px;
   margin: 0 auto;
   margin-top: 50px;
 }
+
 .img1 {
   width: 85px;
   margin: 0 auto;
 }
+
 .a1 {
   margin-top: 50px;
   text-align: center;
   color: #929ba7;
 }
+
 .h5 {
   text-align: center;
   margin-top: 50px;
   font-style: normal;
   font-weight: 600;
 }
+
 .stdn {
   text-align: center;
   color: #929ba7;
   font-size: 18px;
 }
+
 .footer {
   margin-top: 100px;
   height: 250px;
 }
+
 .black {
   border: 2px solid #0000;
   background-color: black;
   height: 250px;
 }
+
 .black .line {
   border-bottom: 1px solid #929ba7;
   margin-top: 100px;
 }
+
 .logos {
   position: relative;
   bottom: 100px;
@@ -511,10 +593,12 @@ h2 {
   display: flex;
   justify-content: space-between;
 }
+
 .logos img {
   width: 30px;
   height: 30px;
 }
+
 .last-para {
   width: 300px;
   position: relative;
@@ -526,6 +610,7 @@ h2 {
   align-items: center;
   justify-content: center;
 }
+
 .fixed {
   width: 220px;
   display: flex;
@@ -536,6 +621,7 @@ h2 {
   top: 570px;
   left: 1125px;
 }
+
 .fixed p {
   width: 100px;
   padding: 10px;
@@ -544,6 +630,7 @@ h2 {
   border: 1px solid #0000;
   border-radius: 20px;
 }
+
 .fixed img {
   margin-bottom: 10px;
   border-radius: 30px;
